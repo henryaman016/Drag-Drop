@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Open+Sans:wght@500&family=Poppins:wght@300&family=Roboto&family=Uchen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+.drag-area{
+    border: 2px dashed white;
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon{
+    font-size: 100px;
+    color: white;
+}
+
+header{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+span{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    margin: 10px 0 15px 0;
+}
+
+button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: antiquewhite;
+    color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
